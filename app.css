@@ -102,3 +102,14 @@ footer a {
 footer a:hover {
   color: var(--color-blue-400);
 }
+
+@media (max-width:900px) {
+  main {
+    display: grid;
+    margin: 0 auto;
+  }
+
+  .sml {
+    width: 70%;
+  }
+}
